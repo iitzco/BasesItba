@@ -60,6 +60,6 @@ group by (legajo);
 --5.9)
 select nombre, nroacta
 from profesor JOIN examen as e2 on profesor.legprof=e2.legprof
-where legajo=any(select e1.legajo from examen as e1 where nota>=4 group by e1.legajo having count(distinct e1.codigo)=(select count(codigo) from materia)) 
+where e2.legajo=any(select e1.legajo from examen as e1 where nota>=4 group by e1.legajo having count(distinct e1.codigo)=(select count(codigo) from materia)) 
 and e2.fecha=(select max(examen.fecha) from examen where examen.legajo=e2.legajo);
 
