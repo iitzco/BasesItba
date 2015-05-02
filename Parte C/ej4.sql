@@ -15,6 +15,7 @@ select * from familiarDe;
 
 
 --DB2
+--Para db2 no hay que poner recursive...y ademas hay que ahregar union all
 with familiarDe
 as
 (
