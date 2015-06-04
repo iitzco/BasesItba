@@ -19,17 +19,17 @@ INSERT INTO jugador VALUES('A02','Barros','4542-8872');
 INSERT INTO jugador VALUES('A03','Andrade','4652-7618');
 INSERT INTO jugador VALUES('B04','Taranto','4314-2345');
 INSERT INTO jugador (codigo,nombre) VALUES('B06','Vilar');
-INSERT INTO jugador VALUES('R02' 'Sanchez' '4785-6562');
-INSERT INTO jugador VALUES('R07' 'Peirano' '4612-3332');
-INSERT INTO jugador VALUES('R11' 'Cardoso' '4314-8102');
+INSERT INTO jugador VALUES('R02', 'Sanchez', '4785-6562');
+INSERT INTO jugador VALUES('R07', 'Peirano', '4612-3332');
+INSERT INTO jugador VALUES('R11', 'Cardoso', '4314-8102');
 
-INSERT INTO penalizacion VALUES('B06' '1998-10-24' 120);
-INSERT INTO penalizacion VALUES('A03' '1998-03-04' 100);
-INSERT INTO penalizacion VALUES('A03' '1999-05-12' 150);
-INSERT INTO penalizacion VALUES('B04' '1999-05-12' 120);
-INSERT INTO penalizacion VALUES('R07' '1999-07-15' 100);
-INSERT INTO penalizacion VALUES('R07' '1998-10-30' 120);
-INSERT INTO penalizacion VALUES('R11' '1999-07-18' 150);
+INSERT INTO penalizacion VALUES('B06', '1998-10-24', 120);
+INSERT INTO penalizacion VALUES('A03', '1998-03-04', 100);
+INSERT INTO penalizacion VALUES('A03', '1999-05-12', 150);
+INSERT INTO penalizacion VALUES('B04', '1999-05-12', 120);
+INSERT INTO penalizacion VALUES('R07', '1999-07-15', 100);
+INSERT INTO penalizacion VALUES('R07', '1998-10-30', 120);
+INSERT INTO penalizacion VALUES('R11', '1999-07-18', 150);
 
 -- 2.3)
 SELECT codigo, fecha
